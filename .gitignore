@@ -1,5 +1,7 @@
 # exclude compiled executables
-*.a *.out *.out
+*.a 
+*.out 
+*.exe
 
 # exclude object files
 *.o
