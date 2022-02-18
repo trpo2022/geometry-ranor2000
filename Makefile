@@ -22,5 +22,8 @@ $(EXE): $(SRC)
 clean: 
 	rm -rf $(EXE_LINUX)
 
+run:
+	./$(EXE)
+
 # program targets
-.PHONY: all clean linux
+.PHONY: all clean run

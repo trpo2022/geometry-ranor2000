@@ -147,7 +147,5 @@ int main() {
         printCircleData(obj);
     }
 
-    // TODO: fix error on linux
-    system("pause");
     return 0;
 }
